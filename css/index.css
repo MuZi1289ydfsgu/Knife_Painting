@@ -1,0 +1,173 @@
+html,body{
+	padding: 0;
+	margin: 0;
+    background-color: #EDEFF0;
+    height: 100%;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+input{
+	outline: none;
+}
+.header{
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.header-nav {
+    width: 100%;
+    height: 80px;
+    background-color: #1D1D1D;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.header-nav > h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Pacifico', Courier, monospace;
+	color: #fefefe;
+}
+.header-nav ul {
+    width: 520px;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nav ul > li > a {
+	display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-nav ul > li > a:hover {
+	background-color: #e25050;
+}
+.header .header-loge{
+    width: 100%;
+    height: 350px;
+    background: url(../image/Knife_Painting.png) no-repeat;
+    background-size: 960px 400px;
+}
+.header .header-title{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(#000,#4D4D4D);
+}
+.header .header-title ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: calc(20% - 5px);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.header .header-title ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.header .header-title ul li a:hover{
+    color: #B12C54;
+}
+.main{
+    width: 960px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #EDEFF0;
+    border: 5px double #4D4D4D;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.main-int{
+    width: 100%;
+    height: 370px;
+    background-color: #51768A;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 20px 0 20px;
+}
+.main-int h3{
+    padding: 10px 0 0 40px;
+    font-weight: 500;
+}
+.main-int img{
+    width: 200px;
+    height: 240px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.main-int span{
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.main-famous{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 100%;
+    height: 1050px;
+    /* background-color: #B12C54; */
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px 0 0 40px;
+}
+.main-famous h3{
+    font-weight: 500;
+}
+.main-famous span{
+    display: inline-block;
+    margin-top: 20px;
+}
+.main-famous span i{
+    font-style: normal;
+    display: block;
+    margin-bottom: 5px;
+}
+.main-famous p{
+    margin: 5px 0;    
+}
+.main-famous img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 0;
+}
+.famous_col {
+    background-color: #B12C54;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.footer{
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: linear-gradient(#4D4D4D,#000);
+    color: #fff;
+    line-height: 50px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
